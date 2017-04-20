@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://www.linkedin.com/in/antoinejeannot/",
+    "text": "Antoine Jeannot"
+  },
+  "text": {
+    "more": "Content-Based Recommender System Visualization\n- Antoine Jeannot @ Ippon Technologies 2017",
+    "intro": "Content-Based Recommender System Visualization\n- Antoine Jeannot @ Ippon Technologies 2017",
+    "title": "Content-based Recommender System Visualization"
+  },
+  "legend": {
+    "edgeLabel": "Similarity between two items",
+    "colorLabel": "Item category",
+    "nodeLabel": "Item"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "category",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
